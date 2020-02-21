@@ -1,16 +1,17 @@
 {
-  "name": "cli-template",
+  "name": "cli-test",
   "version": "1.0.0",
   "description": "",
   "bin": {
-    "cli-template": "./bin/index.js"
+    "cli-test": "./bin/index.js"
   },
   "main": "index.js",
+  "repository": "git@github.com:qinxm/cli-test.git",
   "scripts": {
     "compile": "babel src -d dist",
     "watch": "npm run compile -- --watch"
   },
-  "author": "",
+  "author": "ayqxm@163.com",
   "license": "ISC",
   "dependencies": {
     "babel-cli": "^6.26.0",

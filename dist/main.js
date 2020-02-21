@@ -12,7 +12,7 @@ var _install2 = _interopRequireDefault(_install);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// // 添加加命令 cli-template install
+// // 添加加命令 cli-test install
 _commander2.default.command('install').description('install template').alias('i').action(function () {
   console.log('用户install了');
   // console.log(install());
