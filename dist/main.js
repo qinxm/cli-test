@@ -15,7 +15,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // // 添加加命令 cli-test install
 _commander2.default.command('install').description('install template').alias('i').action(function () {
   console.log('用户install了');
-  // console.log(install());
   (0, _install2.default)();
 });
 _commander2.default.parse(process.argv);

@@ -25,6 +25,8 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 // 运行shell脚本
 
 
+// 
+
 var install = function () {
     var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
         var loading, answer, projectName;
@@ -48,7 +50,7 @@ var install = function () {
                         projectName = answer.projectName;
 
                         loading.start();
-                        _shelljs2.default.exec('git clone git@gitlab.missfresh.net:56-frontend/mfb-openapi.git ' + projectName);
+                        _shelljs2.default.exec('git clone git@github.com:qinxm/vueTsMockTemplate.git ' + projectName);
                         loading.succeed();
                         _shelljs2.default.exit(1);
 
