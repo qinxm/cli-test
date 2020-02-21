@@ -1,0 +1,23 @@
+{
+  "name": "cli-template",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "cli-template": "./bin/index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel src -d dist",
+    "watch": "npm run compile -- --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-env": "^2.4.1",
+    "inquirer": "^7.0.4",
+    "ora": "^4.0.3",
+    "shelljs": "^0.8.3",
+    "tree": "^0.1.3"
+  }
+}
